@@ -141,8 +141,8 @@ function obtenerElementosUnicos(matriz) {
     return matrizUnica;
 }
 
-let matrizDada = ["Sofia", "Maria", "Pedro", "Sofia"];
-let matrizUnica = obtenerElementosUnicos(matrizDada);
+let matriz = ["Sofia", "Maria", "Pedro", "Sofia"];
+let matrizUnica = obtenerElementosUnicos(matriz);
 console.log(matrizUnica); // ["Sofia", "Maria", "Pedro"]
 
 //------------------------------------------------------------------------------------------------------------------
